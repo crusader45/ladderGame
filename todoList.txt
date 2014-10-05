@@ -1,0 +1,18 @@
+# TODO LIST
+
+- 요구사항
+
+	- 1명이 플레이 하는 경우 테스트
+	- 2명이 플레이 하는 경우 테스트
+	- 3명이 플레이 하는 경우 테스트
+	- 요구사항에 있는 사다리 정보로 테스트
+	- 랜덤으로 사다리 생성한 결과 테스트
+	- 로그로 현재 위치 표시 테스트 
+
+
+- 예외 처리
+
+	* 0이하의 player 설정 시, runtime exception
+	* 사다리의 depth(row)가 설정이 안된 경우, runtime exception
+	* 사다리의 depth(row)가 10초과인 경우, runtime exception
+		
